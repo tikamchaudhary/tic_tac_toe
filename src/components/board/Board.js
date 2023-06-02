@@ -71,8 +71,8 @@ const Board = () => {
                     ))
                 }
             </div>
-            <div style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}>
-                <button onClick={handleReset} style={{ padding: "10px" }}>Play Again</button>
+            <div className='btn-div'>
+                <button onClick={handleReset}>Play Again</button>
             </div>
         </>
     )
